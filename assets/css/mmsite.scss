@@ -102,10 +102,21 @@ h3 {
   text-align: center;
 }
 
-h5.faq {
-  @include themify($themes) {
-    color: themed('accentColor2');
-  }
+blockquote {
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial,
+  Helvetica Neue,
+  Helvetica,
+  sans-serif;
+  font-size: 20px;
+  color: #428bca;
+  border-left: 4px solid #428bca;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-right: 4px solid #428bca;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 a {
@@ -157,7 +168,7 @@ a {
 /********************************/
 .container-fluid {
   /* So that the banner image goes all the way to the edges */
-  padding: 0px;
+  padding: 0;
 }
 
 .container {
@@ -165,7 +176,7 @@ a {
 }
 
 .container.footer {
-  padding-top: 0px;
+  padding-top: 0;
   color: #dadfe1;
 }
 
@@ -178,114 +189,6 @@ a {
     color: themed('textColor');
     background-color: themed('backgroundColor');
   }
-}
-
-/* custom container for faq answers */
-.container.faq {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border-radius: 20px;
-  border: 2px inset;
-
-  @include themify($themes) {
-    color: themed('textColor');
-    background-color: tint(themed('backgroundColor'), 10%);
-  }
-}
-
-/*******************************************/
-/* A special class for the download button */
-/*******************************************/
-.btn {
-  border: 10px;
-  color: #dadfe1;
-  background-image: linear-gradient(#000000, #434343, #000000);
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 8px;
-
-  @include themify($themes) {
-    border: 5px solid themed('accentColor1');
-  }
-}
-
-/* Make the text shine */
-.btn:hover {
-  -webkit-stroke-width: 5.3px;
-  -webkit-stroke-color: #FFFFFF;
-  -webkit-fill-color: #FFFFFF;
-  stroke-width: 5.3px;
-
-    color: #dadfe1;
-
-  @include themify($themes) {
-    text-shadow: 1px 0px 20px themed('accentColor2');
-    border: 5px solid themed('accentColor2');
-  }
-}
-
-.btn:active {
-  @include themify($themes) {
-    background: themed('activeColor');
-  }
-}
-
-.img-btn {
-  float: left;
-  height: 100px;
-}
-
-.btn span {
-  line-height: 14px;
-  font-size: 14px;
-  padding: 4px;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-}
-
-/****************************************************/
-/* styling for color switching                      */
-/****************************************************/
-.choose-dark {
-  background-color: #555555;
-  border: 1px solid grey;
-  padding: 15px;
-  display: inline-block;
-}
-
-.choose-light {
-  background-color: #dadfe1;
-  border: 1px solid grey;
-  padding: 15px;
-  display: inline-block;
-}
-
-.tooltip-switch {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip-switch .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip-switch:hover .tooltiptext {
-  visibility: visible;
 }
 
 /****************************************************/
@@ -313,47 +216,6 @@ ul {
       color: themed('textColor');
     }
   }
-}
-
-
-
-
-/*********************************************************************/
-/* Screenshot carousel                                               */
-/*********************************************************************/
-
-.carousel {
-  border: 3px solid black;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 20px;
-  padding: 5px;
-  bottom: 10px;
-  max-width: 400px;
-}
-
-.carousel-control-prev {
-  background: rgba(0, 0, 0, 0.9);
-  max-width: 30px;
-  max-height: 30px;
-  position: absolute;
-  top: 50%;
-  border-radius: 5px;
-  margin-left: 20px;
-}
-
-.carousel-control-next {
-  background: rgba(0, 0, 0, 0.9);
-  max-width: 30px;
-  max-height: 30px;
-  position: absolute;
-  top: 50%;
-  border-radius: 5px;
-  margin-right: 20px;
 }
 
 /*********************************************************************/
@@ -395,9 +257,6 @@ div.post-meta {
     color: themed('textColor');
   }
 }
-
-
-
 
 /*********************************************************************/
 /* Code formatting                                                  */
