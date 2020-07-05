@@ -1,7 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 ---
 # MegaMek.games
@@ -9,7 +6,10 @@ layout: page
 This site is here to to give basic information on:
 
 * Setting up your own private dedicated instance of MegaMek on dedicated hardware.
-* Publicly available servers provided by one of the contributers.
+* These publicly available servers provided by TapEnvy.us, LLC as a contribution to the project.
+
+If you have any issues with setup, or need more clairification, this site is
+hosted on Github Pages. Please open an issue at it's [Repository](https://github.com/rjhancock/megamek-games).
 
 ## Public Servers
 
@@ -18,7 +18,7 @@ posted to prevent errors from gameplay. List will be updated as servers are
 added, removed, and updated.
 
 |Server Name|Port Number|Version|
-|:------|:-----:|--------:|
+|:------|:-----:|:--------:|
 |ghost-bear.megamek.games|2346|0.46.1|
 |diamond-shark.megamek.games|2346|0.47.7|
 
@@ -39,6 +39,10 @@ more, upgrading to the $10/mo USD instance is a few clicks and the settings
 can be adjusted to give MegaMek 1536M of ram instead. In our testing, that
 was overkill.
 
+> If increasing the ram, adjust the start up script and replace the two 
+> instances of 768 with the amount of memory you want to allocate.
+> Remember to leave at least 256M available for the system to function.
+
 To setup an account at [DigitalOcean](https://digitalocean.com), you can go
 directly there or use this [referral link](https://m.do.co/c/769d663c4411).
 Both will get you $100 USD credit for first 60 days, the referral will credit
@@ -51,10 +55,18 @@ for setting up the initial user that we'll be using for MegaMek.
 After you've done the inital server setup, follow along using the created
 user.
 
-### Server Requirements (recommended)
+> We suggest calling the user `megamek` to keep it all the same as below.
+> If you choose a different username, you'll need to make adjustments to
+> the startup script replacing the user with what you chose as well as
+> the `megamek` portion of the working directory.
+
+### Server Requirements (recommended for most)
 
 * Ubuntu 20.04 LTS
 * OpenJDK 11 LTS
+* 1 vCPU
+* 1GB RAM
+* 25G HDD
 
 ### System Updates and Java
 
