@@ -3,10 +3,8 @@ layout: page
 ---
 # MegaMek.games
 
-This site is here to to give basic information on:
-
-* Setting up your own private dedicated instance of MegaMek on dedicated hardware.
-* These publicly available servers provided by TapEnvy.us, LLC as a contribution to the project.
+The public servers below are provided by members of the community with a
+commitment to keep them updated and cover the cost of running them.
 
 If you have any issues with setup, or need more clairification, this site is
 hosted on Github Pages. Please open an issue at it's [Repository](https://github.com/rjhancock/megamek-games).
@@ -17,10 +15,12 @@ These servers are provided for the public to use. You MUST use the same version
 posted to prevent errors from gameplay. List will be updated as servers are
 added, removed, and updated.
 
-|Server Name|Port Number|Version|
-|:------|:-----:|:--------:|
-|ghost-bear.megamek.games|2346|0.46.1|
-|diamond-shark.megamek.games|2346|0.47.7|
+|Server Name|Port Number|Version|Belongs To|
+|:------|:-----:|:--------:|-------:|
+|ghost-bear.megamek.games|2346|0.46.1|TapEnvy.us, LLC|
+|diamond-shark.megamek.games|2346|0.47.7|TapEnvy.us, LLC|
+|sldf.megamek.games|2346|0.46.1|Hammer|
+|hells-horses.megamek.games|2346|0.47.7|Hammer|
 
 ## Instructions
 
