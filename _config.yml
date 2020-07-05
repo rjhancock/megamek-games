@@ -17,7 +17,9 @@ title: megamek.games
 email: rjhancock@tapenvy.us
 description: >- # this means to ignore newlines until "baseurl:"
   This site is for detailing how to setup your own dedicated MegaMek
-  server while also listing publicly usabe ones provided by TapEnvy.us, LLC
+  server while also listing official publicly usabe ones provided by
+  members of the community who have committed to keeping them running
+  and updated.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://megamek.games" # the base hostname & protocol for your site, e.g. http://example.com
 
