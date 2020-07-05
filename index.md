@@ -164,22 +164,32 @@ test editor. Copy and paste below into the window, `Control+X` to save and
 
 ```SystemD
 [Unit]
-Description=MegaMek Dedicated Server #1
-After=network.target #2
+
+#1
+Description=MegaMek Dedicated Server
+
+#2
+After=network.target
 
 [Service]
-Type=simple #3
+#3
+Type=simple
 
-User=megamek #4
+#4
+User=megamek
 
-WorkingDirectory=/home/megamek/stable #5
+#5
+WorkingDirectory=/home/megamek/stable
 
-ExecStart=/usr/bin/java -Xms768m -Xmx768m -jar MegaMek.jar -dedicated -port 2346 #6
+#6
+ExecStart=/usr/bin/java -Xms768m -Xmx768m -jar MegaMek.jar -dedicated -port 2346
 
-Restart=always #7
+#7
+Restart=always
 
 [Install]
-WantedBy=multi-user.target #8
+#8
+WantedBy=multi-user.target
 ```
 
 What this does is:
