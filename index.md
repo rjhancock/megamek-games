@@ -115,6 +115,15 @@ wget <URL of package>
 From a fresh login, this will download it into your home directory. Once
 downloaded, we need to decompress the archive.
 
+> **tip** If unable to determine the filename, you can get the current
+> listing with:
+>
+```bash
+ls -lha
+```
+>
+> This will return a listing of files and folders in the current directory.
+
 For MekHQ 0.46.1:
 
 ```bash
