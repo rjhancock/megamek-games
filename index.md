@@ -26,18 +26,20 @@ added, removed, and updated.
 
 These are basic instructions for getting a dedicated server up and running
 using a hosting provider. Does NOT require adjusting your own router or
-firewall settings. These are at a basic to intermediate level.
+firewall settings. These are at a basic to intermediate level. **Familiarity
+with SSH and the shell are imparitive! Do *NOT* use a web based console for
+this tutorial.**
 
 I'll be using DigitalOcean as a basis for this. They have a large collection
 of tutorials on setting up a server. They can be used with other providers
 as well.
 
 For this tutorial, we'll be using their cheapest droplet to setup an instance
-on which is $5/mo USD. This will allow us to dedicate 768M of ram to MegaMek
-which should be more than enough for most games and scenarios. If you need
-more, upgrading to the $10/mo USD instance is a few clicks and the settings
-can be adjusted to give MegaMek 1536M of ram instead. In our testing, that
-was overkill.
+on which is $5/mo USD as of this writing. This will allow us to dedicate 768M 
+of ram to MegaMek which should be more than enough for most games and 
+scenarios. If you need more, upgrading to the $10/mo USD instance is a few 
+clicks and the settings can be adjusted to give MegaMek 1536M of ram instead. 
+In our testing, that was overkill.
 
 > If increasing the ram, adjust the start up script and replace the two 
 > instances of 768 with the amount of memory you want to allocate.
@@ -79,6 +81,8 @@ Make sure you have a non-priviledged user created with sudo priviledges and you
 can login as said user. You do NOT want to run MegaMek as the `root` user for
 security reasons. If not user how to do this, follow this tutorial for Ubuntu 20.04 -
 [Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04).
+
+
 
 ### System Updates and Java
 
