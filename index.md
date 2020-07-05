@@ -66,6 +66,7 @@ First update all the software with the following command. It's all in one line
 to chain 3 commands together.
 
 ```bash
+# step 1
 sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
 ```
 
@@ -76,6 +77,7 @@ until after everything else has been setup.
 For OpenJDK, it's another quick command:
 
 ```bash
+# step 2
 sudo apt install openjdk-11-jdk-headless
 ```
 
@@ -87,6 +89,7 @@ that you open up the port for MegaMek to use otherwise you wont be able to
 connect to the running server later.
 
 ```bash
+# step 3
 sudo ufw allow 2346
 ```
 
@@ -105,6 +108,7 @@ To get it onto the server, we're going to use `wget` to have it download the
 package.
 
 ```bash
+# step 4
 wget <URL of package>
 ```
 
@@ -114,6 +118,7 @@ downloaded, we need to decompress the archive.
 For MekHQ 0.46.1:
 
 ```bash
+# step 5
 tar -zxvf mekhq-0.46.1.tar.gz
 ```
 
@@ -143,6 +148,7 @@ something has changed. It'll `just work`.
 Again, using MekHQ 0.46.1:
 
 ```bash
+# step 6
 ln -s mekhq-0.46.1 stable
 ```
 
@@ -154,6 +160,7 @@ file. This is how Ubutun will know about MegaMek and to start it at system
 startup.
 
 ```bash
+# step 7
 sudo nano /etc/systemd/system/megamek.service
 ```
 
@@ -162,33 +169,33 @@ Enter your password when prompted. This will open up the about to be created
 test editor. Copy and paste below into the window, `Control+X` to save and
 `Enter` until back to terminal:
 
-```SystemD
+```bash
 [Unit]
-
-#1
+# step 8
+# 1
 Description=MegaMek Dedicated Server
 
-#2
+# 2
 After=network.target
 
 [Service]
-#3
+# 3
 Type=simple
 
-#4
+# 4
 User=megamek
 
-#5
+# 5
 WorkingDirectory=/home/megamek/stable
 
-#6
+# 6
 ExecStart=/usr/bin/java -Xms768m -Xmx768m -jar MegaMek.jar -dedicated -port 2346
 
-#7
+# 7
 Restart=always
 
 [Install]
-#8
+# 8
 WantedBy=multi-user.target
 ```
 
@@ -206,6 +213,7 @@ What this does is:
 Now that we've added a systemD file, we need to let it know it's there.
 
 ```bash
+# step 9
 sudo systemctl daemon-reload
 ```
 
@@ -214,6 +222,7 @@ This will tell SystemD to reload all of the service files and check for changes.
 To confirm it caught the new file...
 
 ```bash
+# step 10
 sudo systemctl status megamek.service
 ```
 
@@ -228,6 +237,7 @@ and you should see something similar to
 That's a good sign! Now we just need to enable it and start it with...
 
 ```bash
+# step 11
 sudo systemctl enable megamek.service
 sudo systemctl start megamek.service
 ```
@@ -256,6 +266,7 @@ Now, if you haven't already, you should restart the server to make sure all the
 patches have applied and that the server will load up on startup.
 
 ```bash
+# step 12
 sudo shutdown -r now
 ```
 
