@@ -20,7 +20,7 @@ added, removed, and updated.
 |Server Name|Port Number|Version|
 |:------|:-----:|--------:|
 |ghost-bear.megamek.games|2346|0.46.1|
-|diamon-shark.megamek.games|2346|0.47.7|
+|diamond-shark.megamek.games|2346|0.47.7|
 
 ## Instructions
 
@@ -98,7 +98,7 @@ website. Navigate there in your favorite browser and copy the Linux URL from
 the downloads page. You can choose either the MekHQ package OR the MegaMek
 one. Both will have the same files for a dedicated server. We recommend
 using the MekHQ package to avoid seeing the `client/server hash mismatch`
-error in the logs. So long as the VERSION (ie: 46.1) matches on both, there
+error in the logs. So long as the VERSION (ie: 0.46.1) matches on both, there
 should be no issues.
 
 To get it onto the server, we're going to use `wget` to have it download the
@@ -121,7 +121,7 @@ To better understand what's going on, we are telling the `tar` command to
 
 1. (z) decompress the compressed file,
 2. (x) extract all files from the archive,
-3. (v) do it verbosly so you can see the output, and
+3. (v) do it verbosely so you can see the output, and
 4. (f) which file to extract from.
 
 ### Setting up for auto start on reboot
@@ -137,7 +137,7 @@ files on each update.
 
 First the symlink. This is so that when you update to a newer version, you
 can stop the running instance, remove the old link, make a new one, and start
-it up again without having to run any privledged commands or tell the system
+it up again without having to run any privileged commands or tell the system
 something has changed. It'll `just work`.
 
 Again, using MekHQ 0.46.1:
@@ -157,7 +157,7 @@ startup.
 sudo nano /etc/systemd/system/megamek.service
 ```
 
-Enter your password when promted. This will open up the about to be created
+Enter your password when prompted. This will open up the about to be created
 `megamek.service` file in a place that SystemD will see it using the `nano`
 test editor. Copy and paste below into the window, `Control+X` to save and
 `Enter` until back to terminal:
@@ -194,7 +194,7 @@ WantedBy=multi-user.target
 
 What this does is:
 
-1. give's it a name,
+1. gives it a name,
 2. tells it to start after the network has started,
 3. that it's a simple service (it really is),
 4. run it as the `megamek` user,
@@ -248,7 +248,7 @@ Jul 05 17:51:35 ghost-bear systemd[1]: Started MegaMek Dedicated Server.
 Jul 05 17:51:35 ghost-bear java[36908]: Redirecting output to megameklog.txt
 ```
 
-Congratulations! You have you're own server setup now using the stock MegaMek
+Congratulations! You have your own server setup now using the stock MegaMek
 package! You can get to it using the IP Address in the control panel using the
 default port of 2346.
 
@@ -263,3 +263,5 @@ This will trigger the shutdown command with the reboot option and to do it now
 vs scheduleing it for later. If using DigitalOcean, in about 1 minute, the
 server should be back up and running. Log back in and re-run the status command
 to confirm.
+
+Happy Hunting MechWarrior!
