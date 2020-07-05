@@ -51,7 +51,7 @@ me $25 USD AFTER you've spent $25.
 > If using DigitalOcean, the initial survey can be a bit dauting. Most is for
 > their internal CRM to help them figure out how people are using their 
 > services. We've suggested people fill in `self hosted game server` in for
-> `What is the project?` (or however it phrased).
+> `What is the project?` (or however it's phrased).
 
 If unfamilier with initial server setup, please check out
 [Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04)
