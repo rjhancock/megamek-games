@@ -73,6 +73,13 @@ user.
 * 1GB RAM
 * 25G HDD
 
+### Before you begin
+
+Make sure you have a non-priviledged user created with sudo priviledges and you
+can login as said user. You do NOT want to run MegaMek as the `root` user for
+security reasons. If not user how to do this, follow this tutorial for Ubuntu 20.04 -
+[Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04).
+
 ### System Updates and Java
 
 Before we even begin to get MegaMek setup, we need to make sure the server is
