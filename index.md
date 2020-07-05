@@ -280,7 +280,7 @@ sudo shutdown -r now
 ```
 
 This will trigger the shutdown command with the reboot option and to do it now
-vs scheduleing it for later. If using DigitalOcean, in about 1 minute, the
+vs scheduling it for later. If using DigitalOcean, in about 1 minute, the
 server should be back up and running. Log back in and re-run the status command
 to confirm.
 
