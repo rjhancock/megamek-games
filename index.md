@@ -20,7 +20,7 @@ added, removed, and updated.
 |Server Name|Port Number|Version|
 |:------|:-----:|--------:|
 |ghost-bear.megamek.games|2346|0.46.1|
-|diamon-shark.megamek.games|2346|0.47.7|
+|diamond-shark.megamek.games|2346|0.47.7|
 
 ## Instructions
 
@@ -66,6 +66,7 @@ First update all the software with the following command. It's all in one line
 to chain 3 commands together.
 
 ```bash
+# step 1
 sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
 ```
 
@@ -76,6 +77,7 @@ until after everything else has been setup.
 For OpenJDK, it's another quick command:
 
 ```bash
+# step 2
 sudo apt install openjdk-11-jdk-headless
 ```
 
@@ -87,6 +89,7 @@ that you open up the port for MegaMek to use otherwise you wont be able to
 connect to the running server later.
 
 ```bash
+# step 3
 sudo ufw allow 2346
 ```
 
@@ -98,13 +101,14 @@ website. Navigate there in your favorite browser and copy the Linux URL from
 the downloads page. You can choose either the MekHQ package OR the MegaMek
 one. Both will have the same files for a dedicated server. We recommend
 using the MekHQ package to avoid seeing the `client/server hash mismatch`
-error in the logs. So long as the VERSION (ie: 46.1) matches on both, there
+error in the logs. So long as the VERSION (ie: 0.46.1) matches on both, there
 should be no issues.
 
 To get it onto the server, we're going to use `wget` to have it download the
 package.
 
 ```bash
+# step 4
 wget <URL of package>
 ```
 
@@ -114,6 +118,7 @@ downloaded, we need to decompress the archive.
 For MekHQ 0.46.1:
 
 ```bash
+# step 5
 tar -zxvf mekhq-0.46.1.tar.gz
 ```
 
@@ -121,7 +126,7 @@ To better understand what's going on, we are telling the `tar` command to
 
 1. (z) decompress the compressed file,
 2. (x) extract all files from the archive,
-3. (v) do it verbosly so you can see the output, and
+3. (v) do it verbosely so you can see the output, and
 4. (f) which file to extract from.
 
 ### Setting up for auto start on reboot
@@ -137,12 +142,13 @@ files on each update.
 
 First the symlink. This is so that when you update to a newer version, you
 can stop the running instance, remove the old link, make a new one, and start
-it up again without having to run any privledged commands or tell the system
+it up again without having to run any privileged commands or tell the system
 something has changed. It'll `just work`.
 
 Again, using MekHQ 0.46.1:
 
 ```bash
+# step 6
 ln -s mekhq-0.46.1 stable
 ```
 
@@ -154,47 +160,48 @@ file. This is how Ubutun will know about MegaMek and to start it at system
 startup.
 
 ```bash
+# step 7
 sudo nano /etc/systemd/system/megamek.service
 ```
 
-Enter your password when promted. This will open up the about to be created
+Enter your password when prompted. This will open up the about to be created
 `megamek.service` file in a place that SystemD will see it using the `nano`
 test editor. Copy and paste below into the window, `Control+X` to save and
 `Enter` until back to terminal:
 
-```SystemD
+```bash
 [Unit]
-
-#1
+# step 8
+# 1
 Description=MegaMek Dedicated Server
 
-#2
+# 2
 After=network.target
 
 [Service]
-#3
+# 3
 Type=simple
 
-#4
+# 4
 User=megamek
 
-#5
+# 5
 WorkingDirectory=/home/megamek/stable
 
-#6
+# 6
 ExecStart=/usr/bin/java -Xms768m -Xmx768m -jar MegaMek.jar -dedicated -port 2346
 
-#7
+# 7
 Restart=always
 
 [Install]
-#8
+# 8
 WantedBy=multi-user.target
 ```
 
 What this does is:
 
-1. give's it a name,
+1. gives it a name,
 2. tells it to start after the network has started,
 3. that it's a simple service (it really is),
 4. run it as the `megamek` user,
@@ -206,6 +213,7 @@ What this does is:
 Now that we've added a systemD file, we need to let it know it's there.
 
 ```bash
+# step 9
 sudo systemctl daemon-reload
 ```
 
@@ -214,6 +222,7 @@ This will tell SystemD to reload all of the service files and check for changes.
 To confirm it caught the new file...
 
 ```bash
+# step 10
 sudo systemctl status megamek.service
 ```
 
@@ -228,6 +237,7 @@ and you should see something similar to
 That's a good sign! Now we just need to enable it and start it with...
 
 ```bash
+# step 11
 sudo systemctl enable megamek.service
 sudo systemctl start megamek.service
 ```
@@ -248,7 +258,7 @@ Jul 05 17:51:35 ghost-bear systemd[1]: Started MegaMek Dedicated Server.
 Jul 05 17:51:35 ghost-bear java[36908]: Redirecting output to megameklog.txt
 ```
 
-Congratulations! You have you're own server setup now using the stock MegaMek
+Congratulations! You have your own server setup now using the stock MegaMek
 package! You can get to it using the IP Address in the control panel using the
 default port of 2346.
 
@@ -256,6 +266,7 @@ Now, if you haven't already, you should restart the server to make sure all the
 patches have applied and that the server will load up on startup.
 
 ```bash
+# step 12
 sudo shutdown -r now
 ```
 
@@ -263,3 +274,5 @@ This will trigger the shutdown command with the reboot option and to do it now
 vs scheduleing it for later. If using DigitalOcean, in about 1 minute, the
 server should be back up and running. Log back in and re-run the status command
 to confirm.
+
+Happy Hunting MechWarrior!
