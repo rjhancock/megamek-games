@@ -159,10 +159,6 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
 }
 
-.navbar a {
-  font-size: 1.1em;
-}
-
 /********************************/
 /** Adjustments to containers  **/
 /********************************/
@@ -188,73 +184,6 @@ a {
   @include themify($themes) {
     color: themed('textColor');
     background-color: themed('backgroundColor');
-  }
-}
-
-/****************************************************/
-/* Override default lists to use Font Awesome icons */
-/****************************************************/
-ul {
-  list-style-type: none;
-
-  li:before {
-    font-family: 'FontAwesome';
-    content: '\f05b';
-    margin: 0 5px 0 -20px;
-
-    @include themify($themes) {
-      color: themed('textColor');
-    }
-  }
-
-  li.news:before {
-    font-family: 'FontAwesome';
-    content: '\f1ea';
-    margin: 0 5px 0 -20px;
-
-    @include themify($themes) {
-      color: themed('textColor');
-    }
-  }
-}
-
-/*********************************************************************/
-/* posts                                                             */
-/*********************************************************************/
-div.post-meta {
-  border-width: 1px 0;
-  border-color: #666666;
-  border-style: solid;
-  margin: 0 0 20px;
-
-  ul {
-    display: inline;
-    padding-left: 0;
-  }
-
-  ul>li {
-    display: inline;
-    padding: 0 0 5px 20px;
-  }
-
-  li:before {
-    content: '';
-    margin: 0 5px 0 0px;
-  }
-
-  .post-time {
-    display: inline;
-  }
-}
-
-/*********************************************************************/
-/* boostrap cards                                                    */
-/*********************************************************************/
-
-.dl-card {
-  @include themify($themes) {
-    background-color: themed('cardColor');
-    color: themed('textColor');
   }
 }
 
