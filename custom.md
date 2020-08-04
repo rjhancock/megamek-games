@@ -52,15 +52,15 @@ lines into the editor, exit and save.
 #!/bin/sh
 # This script will link up each folder under `shared` to it's place under
 # the `stable` folder for use with MegaMek as a dedicated server.
-ln -s shared/boards stable/data/boards/custom
-ln -s shared/images stable/data/images/custom
-ln -s shared/mechfiles stable/data/mechfiles/custom
-ln -s shared/scenarios stable/data/scenarios/custom
-ln -s shared/forcegenerator stable/data/forcegenerator/custom
-ln -s shared/mapgen stable/data/mapgen/custom
-ln -s shared/names stable/data/names/custom
-ln -s shared/rat stable/data/rat/custom
-ln -s shared/sounds stable/data/sounds/custom
+ln -s ~/shared/boards ~/stable/data/boards/custom
+ln -s ~/shared/images ~/stable/data/images/custom
+ln -s ~/shared/mechfiles ~/stable/data/mechfiles/custom
+ln -s ~/shared/scenarios ~/stable/data/scenarios/custom
+ln -s ~/shared/forcegenerator ~/stable/data/forcegenerator/custom
+ln -s ~/shared/mapgen ~/stable/data/mapgen/custom
+ln -s ~/shared/names ~/stable/data/names/custom
+ln -s ~/shared/rat ~/stable/data/rat/custom
+ln -s ~/shared/sounds ~/stable/data/sounds/custom
 ```
 
 All this is doing is taking whatever you have in the shared folder and
