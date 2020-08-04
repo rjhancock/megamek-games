@@ -83,7 +83,7 @@ Once this is done, make sure to restart MegaMek so that it sees the new
 files.
 
 ```bash
-sudo systemctl start megamek.service
+sudo systemctl restart megamek.service
 sudo systemctl status megamek.service
 ```
 
