@@ -23,4 +23,8 @@ added, removed, and updated.
 |||||
 |||*development*|
 |diamond-shark.megamek.games|2346|0.47.11|TapEnvy.us, LLC|
-|hells-horses.megamek.games|2346|0.47.7|Hammer|
+|hells-horses.megamek.games|2346|0.47.11|Hammer|
+
+## Be Polite
+
+It happens at times that games will get disconnected or people will just stop playing mid-game for whatever reason. If you join a server and it looks like a game is in progress, use the chat and see if anyone responds. Give them a few mintues. If no one responds, feel free to `/reset` and start playing.
