@@ -22,7 +22,7 @@ added, removed, and updated.
 |sldf.megamek.games|2346|0.46.1|Hammer|
 |||||
 |||*development*|
-|diamond-shark.megamek.games|2346|0.47.13|TapEnvy.us, LLC|
+|diamond-shark.megamek.games|2346|0.47.14|TapEnvy.us, LLC|
 |hells-horses.megamek.games|2346|0.47.11|Hammer|
 |marian-hegemony.megamek.games|2346|0.47.11|Spamtastic|
 
