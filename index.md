@@ -24,7 +24,7 @@ added, removed, and updated.
 |||*development*|
 |diamond-shark.megamek.games|2346|0.47.16|TapEnvy.us, LLC|
 |hells-horses.megamek.games|2346|0.47.11|Hammer|
-|marian-hegemony.megamek.games|2346|0.47.11|Spamtastic|
+|marian-hegemony.megamek.games|2346|0.47.16|Spamtastic|
 |marian-hegemony.megamek.games|2349|0.47.14|Spamtastic|
 
 ## Be Polite
