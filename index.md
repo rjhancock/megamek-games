@@ -7,7 +7,7 @@ The public servers below are provided by members of the community with a
 commitment to keep them updated and cover the cost of running them.
 
 If you have any issues with setup, or need more clairification, this site is
-hosted on Github Pages. Please open an issue at it's [Repository](https://github.com/rjhancock/megamek-games).
+hosted on Github Pages. Please open an issue at its [Repository](https://github.com/rjhancock/megamek-games).
 
 ## Public Servers
 
