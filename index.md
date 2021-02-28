@@ -15,17 +15,17 @@ These servers are provided for the public to use. You MUST use the same version
 posted to prevent errors from gameplay. List will be updated as servers are
 added, removed, and updated.
 
-|Server Name|Port Number|Version|Provided By|
-|:------|:-----:|:--------:|-------:|
-|||*stable*|
-|ghost-bear.megamek.games|2346|0.46.1|TapEnvy.us, LLC|
-|sldf.megamek.games|2346|0.46.1|Hammer|
-|||||
-|||*development*|
-|diamond-shark.megamek.games|2346|0.47.17|TapEnvy.us, LLC|
-|hells-horses.megamek.games|2346|0.47.16|Hammer|
-|marian-hegemony.megamek.games|2346|0.47.16|Spamtastic|
-|marian-hegemony.megamek.games|2349|0.47.17|Spamtastic|
+|Server Name|Port Number|Version|Game Size|Provided By|
+|:------|:-----:|:--------:|:--:|-------:|
+|||*stable*||
+|ghost-bear.megamek.games|2346|0.46.1|1700M - Regimental?|TapEnvy.us, LLC|
+|sldf.megamek.games|2346|0.46.1|768M - Lances|Hammer|
+||||||
+|||*development*||
+|diamond-shark.megamek.games|2346|0.47.17|1700M - Regimental?|TapEnvy.us, LLC|
+|hells-horses.megamek.games|2346|0.47.16|768M - Lances|Hammer|
+|marian-hegemony.megamek.games|2346|0.47.16|768M - Lances|Spamtastic|
+|marian-hegemony.megamek.games|2349|0.47.17|768M - Lances|Spamtastic|
 
 ## Be Polite
 
