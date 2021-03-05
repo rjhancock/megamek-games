@@ -18,7 +18,7 @@ added, removed, and updated.
 |Server Name|Port Number|Version|Game Size|Provided By|
 |:------|:-----:|:--------:|:--:|-------:|
 |||*stable*||
-|ghost-bear.megamek.games|2346|0.46.1|1700M - Regimental?|TapEnvy.us, LLC|
+|ghost-bear.megamek.games|2346|0.48.0|1700M - Regimental?|TapEnvy.us, LLC|
 |sldf.megamek.games|2346|0.46.1|768M - Lances|Hammer|
 ||||||
 |||*development*||
