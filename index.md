@@ -28,9 +28,9 @@ added, removed, and updated.
 |the-griffins.megamek.games|2356|0.48.0|1G - Companies|Hutti (LynxX-IT)|
 |the-griffins.megamek.games|2358|0.48.0|1G - Companies|Hutti (LynxX-IT)|
 |the-griffins.megamek.games|2360|0.48.0|1G - Companies|Hutti (LynxX-IT)|
-|the-griffins.megamek.games|2362|0.48.0|1G - Companies|Hutti (LynxX-IT)|
-|the-griffins.megamek.games|2364|0.48.0|1G - Companies|Hutti (LynxX-IT)|
-|the-griffins.megamek.games|2366|0.48.0|1G - Companies|Hutti (LynxX-IT)|
+|the-griffins.megamek.games|2362|0.48.0|2G - Regimental?|Hutti (LynxX-IT)|
+|the-griffins.megamek.games|2364|0.48.0|2G - Regimental?|Hutti (LynxX-IT)|
+|the-griffins.megamek.games|2366|0.48.0|2G - Regimental?|Hutti (LynxX-IT)|
 ||||||
 |||*development*||
 |diamond-shark.megamek.games|2346|0.47.17|1700M - Regimental?|TapEnvy.us, LLC|
