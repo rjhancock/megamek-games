@@ -20,6 +20,17 @@ added, removed, and updated.
 |||*stable*||
 |ghost-bear.megamek.games|2346|0.48.0|1700M - Regimental?|TapEnvy.us, LLC|
 |sldf.megamek.games|2346|0.48.0|768M - Lances|Hammer|
+|the-griffins.megamek.games|2346|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2348|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2350|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2352|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2354|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2356|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2358|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2360|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2362|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2364|0.48.0|Unknown|Hutti (LunX-IT)|
+|the-griffins.megamek.games|2366|0.48.0|Unknown|Hutti (LunX-IT)|
 ||||||
 |||*development*||
 |diamond-shark.megamek.games|2346|0.47.17|1700M - Regimental?|TapEnvy.us, LLC|
