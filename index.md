@@ -38,6 +38,10 @@ added, removed, and updated.
 |marian-hegemony.megamek.games|2346|0.47.16|512M - Companies|Spamtastic|
 |marian-hegemony.megamek.games|2349|0.47.17|512M - Companies|Spamtastic|
 
+## Voice Channels
+
+Official voice channels are available on the [Official MegaMek Discord](https://discord.gg/XM54YH9396) for use for each of these servers. Feel free to use them while playing.
+
 ## Be Polite
 
 It happens at times that games will get disconnected or people will just stop playing mid-game for whatever reason. If you join a server and it looks like a game is in progress, use the chat and see if anyone responds. Give them a few mintues. If no one responds, feel free to `/reset` and start playing.
