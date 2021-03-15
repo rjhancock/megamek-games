@@ -16,4 +16,6 @@ thrown in.
 
 End Result: 1.9G of ram used, no crashes.
 
-[BattleLog](./2021-03-14-battlelog.html)
+* [YouTube Video - Round 17+](https://youtu.be/y54Nya3BclI)
+* [MiniMap](https://imgur.com/a/U9EtRsN)
+* [BattleLog](./2021-03-14-battlelog.html)
