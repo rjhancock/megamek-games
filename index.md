@@ -34,7 +34,7 @@ added, removed, and updated.
 ||||||
 |||*development*||
 |diamond-shark.megamek.games|2346|0.49.2|1700M - Regimental?|TapEnvy.us, LLC|
-|hells-horses.megamek.games|2346|0.48.0|768M - Companies|Hammer|
+|hells-horses.megamek.games|2346|0.49.2|768M - Companies|Hammer|
 |marian-hegemony.megamek.games|2346|0.49.1|512M - Companies|Spamtastic|
 |marian-hegemony.megamek.games|2349|0.47.17|512M - Companies|Spamtastic|
 
