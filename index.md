@@ -21,6 +21,7 @@ added, removed, and updated.
 |ghost-bear.megamek.games|2346|0.48.0|1700M - Regimental?|TapEnvy.us, LLC|
 |sldf.megamek.games|2346|0.48.0|768M - Companies|Hammer|
 |tamar-jagers.megamek.games|2346|0.48.0|768M - Companies|Jay^|
+|magistracy-of-canopus.megamek.games|2346|0.48.0|512M - Companies|Delra|
 ||||||
 |||*development*||
 |diamond-shark.megamek.games|2346|0.49.3|1700M - Regimental?|TapEnvy.us, LLC|
