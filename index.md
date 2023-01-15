@@ -27,8 +27,7 @@ added, removed, and updated.
 |diamond-shark.megamek.games|2346|0.49.11|1700M - Regimental?|TapEnvy.us, LLC|
 |hells-horses.megamek.games|2346|0.49.7|768M - Companies|Hammer|
 |blackhearts.megamek.games|2346|0.49.7|768M - Companies|Hammer|
-|wolverines.megamek.games|2346|0.49.8|768M - Companies|Hammer|
-|marian-hegemony.megamek.games|2346|0.49.8|512M - Companies|Spamtastic|
+|wolverines.megamek.games|2346|0.49.11|768M - Companies|Hammer|
 
 ## Voice Channels
 
