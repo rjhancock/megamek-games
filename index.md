@@ -6,13 +6,13 @@ layout: page
 The public servers below are provided by members of the community with a
 commitment to keep them updated and cover the cost of running them.
 
-If you have any issues with setup, or need more clairification, this site is
+If you have any issues with setup, or need more clarification, this site is
 hosted on Github Pages. Please open an issue at its [Repository](https://github.com/rjhancock/megamek-games).
 
 ## Public Servers
 
 These servers are provided for the public to use. You MUST use the same version
-posted to prevent errors from gameplay. List will be updated as servers are
+posted to prevent errors from game play. List will be updated as servers are
 added, removed, and updated.
 
 |Server Name|Port Number|Version|Game Size|Provided By|
@@ -29,13 +29,24 @@ added, removed, and updated.
 |blackhearts.megamek.games|2346|0.49.7|768M - Companies|Hammer|
 |wolverines.megamek.games|2346|0.49.11|768M - Companies|Hammer|
 
+## Scheduled Server Restarts
+
+Some of the servers have scheduled restarts of the MegaMek client to prevent
+memory corruption issues as well as to reset bad connections or stuck servers.
+The servers below restart at the designated times:
+
+|Server Name|Restart Schedule|
+|:---------:|:--------------:|
+|Ghost Bear | Daily at 0115 UTC|
+|Diamond Shark | Daily at 0115 UTC|
+
 ## Voice Channels
 
 Official voice channels are available on the [Official MegaMek Discord](https://discord.gg/XM54YH9396) for use for each of these servers. Feel free to use them while playing.
 
 ## Be Polite
 
-It happens at times that games will get disconnected or people will just stop playing mid-game for whatever reason. If you join a server and it looks like a game is in progress, use the chat and see if anyone responds. Give them a few mintues. If no one responds, feel free to `/reset` and start playing.
+It happens at times that games will get disconnected or people will just stop playing mid-game for whatever reason. If you join a server and it looks like a game is in progress, use the chat and see if anyone responds. Give them a few minutes. If no one responds, feel free to `/reset` and start playing.
 
 In addition, if you find the rules are not changing, go into `Game Options` and reset to `Default` and apply before changing again. A recent (2021/03/20) test of the servers discovered this issue.
 
