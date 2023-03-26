@@ -80,16 +80,10 @@ sans-serif;
 /*******************************************************/
 /* Basics                                              */
 /*******************************************************/
-body,
-html {
-  height: 100%;
-}
 
 body {
   background-image: url("../../assets/images/backgrounds/hexellence.png"), linear-gradient(#000000, #000000);
   font-family: $font-stack;
-
-  padding-top: 60px;
 
   @include themify($themes) {
     color: themed('textColor');
@@ -154,22 +148,9 @@ a {
   position: 0;
 }
 
-/* Make the navbar semi-transparent */
-.navbar.transparent {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
-}
-
 /********************************/
 /** Adjustments to containers  **/
 /********************************/
-.container-fluid {
-  /* So that the banner image goes all the way to the edges */
-  padding: 0;
-}
-
-.container {
-  padding: 15px;
-}
 
 .container.footer {
   padding-top: 0;

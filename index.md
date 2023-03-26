@@ -36,9 +36,9 @@ memory corruption issues as well as to reset bad connections or stuck servers.
 The servers below restart at the designated times:
 
 |Server Name|Restart Schedule|
-|:----------|:--------------:|
+|:---------:|:--------------:|
 |Ghost Bear | Daily at 0115 UTC|
-|Diamond Shark | | Daily at 0115 UTC|
+|Diamond Shark | Daily at 0115 UTC|
 
 ## Voice Channels
 
