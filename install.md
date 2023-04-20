@@ -26,8 +26,8 @@ In our testing, that was overkill.
 
 To setup an account at [DigitalOcean](https://digitalocean.com), you can go
 directly there or use this [referral link](https://m.do.co/c/769d663c4411).
-Both will get you $100 USD credit for first 60 days, the referral will credit
-me (TapEnvy.us, LLC) $25 USD AFTER you've spent $25.
+Both will get you $200 USD credit for first 60 days (as of 4/20/23), the 
+referral will credit me (TapEnvy.us, LLC) $25 USD AFTER you've spent $25.
 
 > If using DigitalOcean, the initial survey can be a bit dauting. Most is for
 > their internal CRM to help them figure out how people are using their
