@@ -23,7 +23,7 @@ added, removed, and updated.
 |magistracy-of-canopus.megamek.games|2346|0.48.0|512M - Companies|Delra|
 ||||||
 |||*development*||
-|diamond-shark.megamek.games|2346|0.49.12|1700M - Regimental?|TapEnvy.us, LLC|
+|diamond-shark.megamek.games|2346|0.49.13|1700M - Regimental?|TapEnvy.us, LLC|
 |hells-horses.megamek.games|2346|0.49.7|768M - Companies|Hammer|
 |blackhearts.megamek.games|2346|0.49.7|768M - Companies|Hammer|
 |wolverines.megamek.games|2346|0.49.12|768M - Companies|Hammer|
