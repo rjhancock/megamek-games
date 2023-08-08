@@ -21,12 +21,16 @@ added, removed, and updated.
 |ghost-bear.megamek.games|2346|0.48.0|1700M - Regimental?|TapEnvy.us, LLC|
 |sldf.megamek.games|2346|0.48.0|768M - Companies|Hammer|
 |magistracy-of-canopus.megamek.games|2346|0.48.0|512M - Companies|Delra|
+|ralias-raiders. megamek.games|2830|0.48.0|2048M - Regimental?|Sierra Invenio / SniperTeamTango|
+|ralias-raiders. megamek.games|2866|0.48.0|2048M - Regimental?|Sierra Invenio / SniperTeamTango|
+|ralias-raiders. megamek.games|3028|0.48.0|2048M - Regimental?|Sierra Invenio / SniperTeamTango|
 ||||||
 |||*development*||
-|diamond-shark.megamek.games|2346|0.49.13|1700M - Regimental?|TapEnvy.us, LLC|
+|diamond-shark.megamek.games|2346|0.49.14|1700M - Regimental?|TapEnvy.us, LLC|
 |hells-horses.megamek.games|2346|0.49.7|768M - Companies|Hammer|
 |blackhearts.megamek.games|2346|0.49.7|768M - Companies|Hammer|
 |wolverines.megamek.games|2346|0.49.12|768M - Companies|Hammer|
+|ralias-raiders. megamek.games|3049|0.49.14|2048M - Regimental?|Sierra Invenio / SniperTeamTango|
 
 ## Scheduled Server Restarts
 
@@ -38,6 +42,7 @@ The servers below restart at the designated times:
 |:---------:|:--------------:|
 |Ghost Bear | Daily at 0115 UTC|
 |Diamond Shark | Daily at 0115 UTC|
+|Ralias Raiders | Sunday Midnight Eastern|
 
 ## Voice Channels
 
