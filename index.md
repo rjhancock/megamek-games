@@ -36,10 +36,10 @@ added, removed, and updated.
 |hells-horses.megamek.games   |2346|0.49.15|768M - Companies    |Hammer|
 |blackhearts.megamek.games    |2346|0.49.15|768M - Companies    |Hammer|
 |wolverines.megamek.games     |2346|0.49.15|768M - Companies    |Hammer|
-|ralias-raiders. megamek.games|2823|0.49.15|2048M - Regimental? |Sierra Invenio / SniperTeamTango| 
-|ralias-raiders. megamek.games|3049|0.49.15|2048M - Regimental? |Sierra Invenio / SniperTeamTango| 
-|ralias-raiders. megamek.games|3057|0.49.15|2048M - Regimental? |Sierra Invenio / SniperTeamTango| 
-|ralias-raiders. megamek.games|3071|0.49.15|2048M - Regimental? |Sierra Invenio / SniperTeamTango|
+|ralias-raiders. megamek.games|2823|0.49.17|2048M - Regimental? |Sierra Invenio / SniperTeamTango| 
+|ralias-raiders. megamek.games|3049|0.49.17|2048M - Regimental? |Sierra Invenio / SniperTeamTango| 
+|ralias-raiders. megamek.games|3057|0.49.17|2048M - Regimental? |Sierra Invenio / SniperTeamTango| 
+|ralias-raiders. megamek.games|3071|0.49.17|2048M - Regimental? |Sierra Invenio / SniperTeamTango|
 
 ## Scheduled Server Restarts
 
