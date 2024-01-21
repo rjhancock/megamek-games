@@ -4,9 +4,9 @@ layout: page
 
 # Custom Data
 
-So you want custom data on your server but everytime you update you have to
+So you want custom data on your server but every time you update you have to
 copy things back in place. Gets annoying especially when you may not be
-familier with the OS you're working on. Well, let's make that easy for you
+familiar with the OS you're working on. Well, let's make that easy for you
 shall we?
 
 ## Shared Folder
@@ -19,7 +19,7 @@ mkdir -p shared/boards shared/images shared/mechfiles shared/scenarios shared/fo
 ```
 
 First we make sure we're inside our home directory (assuming this is also where
-you have megamek installed at). Then we create each of the subfolders inside of
+you have megamek installed at). Then we create each of the subfolder's inside of
 a central shared folder. Place any custom for each inside of these respective
 folders.
 
@@ -33,7 +33,7 @@ There are 2 ways we can do this.
 Let's keep this easy and just write a script to handle this. Lucky for you,
 the hard part has been done below.
 
-> Note: Only have to create this once. Can skip this part if it's arleady
+> Note: Only have to create this once. Can skip this part if it's already
 > there.
 
 ```bash
