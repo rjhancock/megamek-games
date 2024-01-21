@@ -5,7 +5,7 @@ layout: page
 
 Updating the version on your server is considerably easier than the initial
 installation. Few steps, less things to break. In fact, the process should
-feel similar to how it was for the initial instalation.
+feel similar to how it was for the initial installation.
 
 ## System Updates and Java
 
@@ -17,12 +17,12 @@ to chain 3 commands together.
 
 ```bash
 # step 1
-sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
+sudo apt update && sudo apt full-upgrade -y
 ```
 
 ## Getting MegaMek
 
-Same as with the instalation, we need to get a copy of the latest version onto
+Same as with the installation, we need to get a copy of the latest version onto
 the server. So navigate to [MegaMek](https://megamek.org/downloads.html)
 and copy the URL for the Linux version (you're choice on either the MegaMek
 or MekHQ package).
@@ -44,11 +44,11 @@ ls -lha
 >
 > This will return a listing of files and folders in the current directory.
 
-For MekHQ 0.46.1:
+For MekHQ 0.49.17:
 
 ```bash
 # step 3
-tar -zxvf mekhq-0.46.1.tar.gz
+tar -zxvf mekhq-0.49.17.tar.gz
 ```
 
 To better understand what's going on, we are telling the `tar` command to
@@ -77,7 +77,7 @@ installation) then link the new version up with
 ```bash
 # step 5
 rm stable
-ln -s mekhq-0.46.1 stable
+ln -s mekhq-0.49.17 stable
 ```
 
 ## Start the new version
@@ -110,7 +110,17 @@ Jul 05 17:51:35 ghost-bear java[36908]: Redirecting output to megameklog.txt
 Congratulations! You have updated your server to the latest version of
 MegaMek!
 
-## Restart for any system udpates
+## Cleaning Old Files
+
+To remove the old files, execute the following similar commands. Be mindful to replace the file name
+with whatever is the previous version(s).
+
+```bash
+ln -lha
+rm -rf mekhq-0.49.15*
+```
+
+## Restart for any system updates
 
 It's probably a good idea to restart the server to ensure any security updates
 to the system get fully applied.

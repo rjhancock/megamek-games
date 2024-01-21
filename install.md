@@ -6,7 +6,7 @@ layout: page
 These are basic instructions for getting a dedicated server up and running
 using a hosting provider. Does NOT require adjusting your own router or
 firewall settings. These are at a basic to intermediate level. **Familiarity
-with SSH and the shell are imparitive! Do *NOT* use a web based console for
+with SSH and the shell are imperative! Do *NOT* use a web based console for
 this tutorial.**
 
 I'll be using DigitalOcean as a basis for this. They have a large collection
@@ -26,19 +26,19 @@ In our testing, that was overkill.
 
 To setup an account at [DigitalOcean](https://digitalocean.com), you can go
 directly there or use this [referral link](https://m.do.co/c/769d663c4411).
-Both will get you $200 USD credit for first 60 days (as of 4/20/23), the 
+Both will get you $200 USD credit for first 60 days (as of 4/20/23), the
 referral will credit me (TapEnvy.us, LLC) $25 USD AFTER you've spent $25.
 
-> If using DigitalOcean, the initial survey can be a bit dauting. Most is for
+> If using DigitalOcean, the initial survey can be a bit daunting. Most is for
 > their internal CRM to help them figure out how people are using their
 > services. We've suggested people fill in `self hosted game server` in for
 > `What is the project?` (or however it's phrased).
 
-If unfamilier with initial server setup, please check out
+If unfamiliar with initial server setup, please check out
 [Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04)
 for setting up the initial user that we'll be using for MegaMek.
 
-After you've done the inital server setup, follow along using the created
+After you've done the initial server setup, follow along using the created
 user.
 
 > We suggest calling the user `megamek` to keep it all the same as below.
@@ -48,7 +48,7 @@ user.
 
 ## Server Requirements (recommended for most)
 
-* Ubuntu 20.04 LTS
+* Ubuntu 22.04 LTS
 * OpenJDK 11 LTS
 * 1 vCPU
 * 1GB RAM
@@ -56,7 +56,7 @@ user.
 
 ### Before you begin
 
-Make sure you have a non-priviledged user created with sudo priviledges and you
+Make sure you have a non-privileged user created with sudo privileges and you
 can login as said user. You do NOT want to run MegaMek as the `root` user for
 security reasons. If not user how to do this, follow this tutorial for Ubuntu 20.04 -
 [Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04).
@@ -159,18 +159,18 @@ can stop the running instance, remove the old link, make a new one, and start
 it up again without having to run any privileged commands or tell the system
 something has changed. It'll `just work`.
 
-Again, using MekHQ 0.46.1:
+Again, using MekHQ 0.49.17:
 
 ```bash
 # step 6
-ln -s mekhq-0.46.1 stable
+ln -s mekhq-0.49.17 stable
 ```
 
 This will create a link from the extracted location to a folder named `stable`
 which we will use in our start up script.
 
 For the startup script, we need to create what is known as a systemd service
-file. This is how Ubutun will know about MegaMek and to start it at system
+file. This is how Ubuntu will know about MegaMek and to start it at system
 startup.
 
 ```bash
