@@ -41,6 +41,8 @@ added, removed, and updated.
 |ralias-raiders.megamek.games|3057|0.49.18|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games|3071|0.49.18|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games|3151|0.49.18|2048M - Regimental? |[RR] Sierra Invenio|
+|houseofmors.megamek.games    |2346|0.49.18|768M - Companies    |Mors2657|
+|houseofmors2.megamek.games   |2346|0.49.18|768M - Companies    |Mors2657|
 
 ## MekWars Servers
 
