@@ -116,7 +116,7 @@ To remove the old files, execute the following similar commands. Be mindful to r
 with whatever is the previous version(s).
 
 ```bash
-ln -lha
+ls -lha
 rm -rf mekhq-0.49.15*
 ```
 
