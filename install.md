@@ -3,6 +3,8 @@ layout: page
 ---
 # Installation
 
+**Notice: An easier method is now available through a [Dockerized]({{ 'docker.html' | relative_url }}) version of MegaMek!
+
 These are basic instructions for getting a dedicated server up and running
 using a hosting provider. Does NOT require adjusting your own router or
 firewall settings. These are at a basic to intermediate level. **Familiarity
@@ -35,7 +37,7 @@ referral will credit me (TapEnvy.us, LLC) $25 USD AFTER you've spent $25.
 > `What is the project?` (or however it's phrased).
 
 If unfamiliar with initial server setup, please check out
-[Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04)
+[Initial Server Setup with Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04)
 for setting up the initial user that we'll be using for MegaMek.
 
 After you've done the initial server setup, follow along using the created
@@ -59,7 +61,7 @@ user.
 Make sure you have a non-privileged user created with sudo privileges and you
 can login as said user. You do NOT want to run MegaMek as the `root` user for
 security reasons. If not user how to do this, follow this tutorial for Ubuntu 20.04 -
-[Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04).
+[Initial Server Setup with Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04).
 
 ### System Updates and Java
 
@@ -106,7 +108,7 @@ website. Navigate there in your favorite browser and copy the Linux URL from
 the downloads page. You can choose either the MekHQ package OR the MegaMek
 one. Both will have the same files for a dedicated server. We recommend
 using the MekHQ package to avoid seeing the `client/server hash mismatch`
-error in the logs. So long as the VERSION (ie: 0.46.1) matches on both, there
+error in the logs. So long as the VERSION (ie: 0.49.19.1) matches on both, there
 should be no issues.
 
 To get it onto the server, we're going to use `wget` to have it download the
@@ -129,11 +131,11 @@ ls -lha
 >
 > This will return a listing of files and folders in the current directory.
 
-For MekHQ 0.46.1:
+For MekHQ 0.49.19.1:
 
 ```bash
 # step 5
-tar -zxvf mekhq-0.46.1.tar.gz
+tar -zxvf mekhq-0.49.19.1.tar.gz
 ```
 
 To better understand what's going on, we are telling the `tar` command to
@@ -159,11 +161,11 @@ can stop the running instance, remove the old link, make a new one, and start
 it up again without having to run any privileged commands or tell the system
 something has changed. It'll `just work`.
 
-Again, using MekHQ 0.49.17:
+Again, using MekHQ 0.49.19.1:
 
 ```bash
 # step 6
-ln -s mekhq-0.49.17 stable
+ln -s mekhq-0.49.19.1 stable
 ```
 
 This will create a link from the extracted location to a folder named `stable`

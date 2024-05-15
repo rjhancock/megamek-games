@@ -32,7 +32,7 @@ added, removed, and updated.
 |ralias-raiders.megamek.games        |3081|0.49.7 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 ||||||
 |||*development*|||
-|diamond-shark.megamek.games  |2346|0.49.17|1700M - Regimental? |TapEnvy.us, LLC|
+|diamond-shark.megamek.games  |2346|0.49.19|1700M - Regimental? |TapEnvy.us, LLC|
 |hells-horses.megamek.games   |2346|0.49.19|768M - Companies    |MegaMek Team|
 |blackhearts.megamek.games    |2346|0.49.19|768M - Companies    |MegaMek Team|
 |wolverines.megamek.games     |2346|0.49.19|768M - Companies    |MegaMek Team|
