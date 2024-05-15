@@ -36,11 +36,13 @@ added, removed, and updated.
 |hells-horses.megamek.games   |2346|0.49.19|768M - Companies    |MegaMek Team|
 |blackhearts.megamek.games    |2346|0.49.19|768M - Companies    |MegaMek Team|
 |wolverines.megamek.games     |2346|0.49.19|768M - Companies    |MegaMek Team|
-|ralias-raiders.megamek.games|2823|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games|3049|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games|3057|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games|3071|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games|3151|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |2823|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3049|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3057|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3071|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3151|0.49.19|2048M - Regimental? |[RR] Sierra Invenio|
+|houseofmors.megamek.games    |2346|0.49.18|768M - Companies    |Mors2657|
+|houseofmors2.megamek.games   |2346|0.49.18|768M - Companies    |Mors2657|
 
 ## MekWars Servers
 
