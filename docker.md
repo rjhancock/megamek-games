@@ -139,7 +139,7 @@ or milestone.
 Once the version is pulled, to run the image,
 
 ```bash
-docker run -d --restart unless-stopped -p 2436:2436 --name megamek tapenvyus/megamek:milestone
+docker run -d --restart unless-stopped -p 2346:2346 --name megamek tapenvyus/megamek:milestone
 ```
 
 This will take the newly downloaded image, start it up, set it to restart automatically upon system reboot, ensure
@@ -158,7 +158,7 @@ then clean up old data from the system.
 docker pull tapenvyus/megamek:milestone
 docker stop megamek
 docker container rm megamek
-docker run -d --restart unless-stopped -p 2436:2436 --name megamek tapenvyus/megamek:milestone
+docker run -d --restart unless-stopped -p 2346:2346 --name megamek tapenvyus/megamek:milestone
 docker system prune --volumes -f
 ```
 
