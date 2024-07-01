@@ -26,7 +26,6 @@ added, removed, and updated.
 |ralias-raiders.megamek.games        |3028|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games        |3039|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games        |3052|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games        |3057|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games        |3058|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games        |3062|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games        |3067|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
