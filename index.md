@@ -45,17 +45,17 @@ added, removed, and updated.
 ||||||
 |||*Deprecatied Stable Servers*|||
 |magistracy-of-canopus.megamek.games |2346|0.48.0 (Stable)|512M - Companies    |Delra|
-|megamek.lynxx-it.de                 |2346|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2348|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2350|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2352|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2354|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2356|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2358|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2360|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2362|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2364|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
-|megamek.lynxx-it.de                 |2366|0.48.0 (Stable)|Companies|Hutti (LynX-IT|
+|megamek.lynxx-it.de                 |2346|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2348|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2350|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2352|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2354|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2356|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2358|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2360|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2362|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2364|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+|megamek.lynxx-it.de                 |2366|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
 ## MekWars Servers
 
 These servers are related as they use a customized version of the MegaMek client to
