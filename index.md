@@ -56,6 +56,7 @@ added, removed, and updated.
 |megamek.lynxx-it.de                 |2362|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
 |megamek.lynxx-it.de                 |2364|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
 |megamek.lynxx-it.de                 |2366|0.48.0 (Stable)|Companies|Hutti (LynX-IT)|
+
 ## MekWars Servers
 
 These servers are related as they use a customized version of the MegaMek client to
