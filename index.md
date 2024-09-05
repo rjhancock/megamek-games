@@ -34,7 +34,7 @@ added, removed, and updated.
 |ralias-raiders.megamek.games |3081|0.49.19.1 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 ||||||
 |||*Development*|||
-|diamond-shark.megamek.games  |2346|0.49.19|1700M - Regimental? |TapEnvy.us, LLC|
+|diamond-shark.megamek.games  |2346|0.50.0|1700M - Regimental? |TapEnvy.us, LLC|
 |houseofmors.megamek.games    |2346|0.49.18|768M - Companies    |Mors2657|
 |houseofmors2.megamek.games   |2346|0.49.18|768M - Companies    |Mors2657|
 |ralias-raiders.megamek.games |2823|0.49.20|2048M - Regimental? |[RR] Sierra Invenio|
