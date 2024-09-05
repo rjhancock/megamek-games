@@ -37,11 +37,11 @@ added, removed, and updated.
 |diamond-shark.megamek.games  |2346|0.50.0|1700M - Regimental? |TapEnvy.us, LLC|
 |houseofmors.megamek.games    |2346|0.49.18|768M - Companies    |Mors2657|
 |houseofmors2.megamek.games   |2346|0.49.18|768M - Companies    |Mors2657|
-|ralias-raiders.megamek.games |2823|0.49.20|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3049|0.49.20|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3057|0.49.20|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3071|0.49.20|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3151|0.49.20|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |2823|0.50.0|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3049|0.50.0|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3057|0.50.0|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3071|0.50.0|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3151|0.50.0|2048M - Regimental? |[RR] Sierra Invenio|
 ||||||
 |||*Deprecatied Stable Servers*|||
 |magistracy-of-canopus.megamek.games |2346|0.48.0 (Stable)|512M - Companies    |Delra|
