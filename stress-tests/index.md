@@ -24,7 +24,7 @@ End Result: no crashes and many breaches.
 
 Dedicated server given 8G of ram, 13 connections, 12 Princess Bots in default
 config. Game settings were not changed. 2 Princess bots were assigned to each
-team and given 12 units each to control. Mostly 'Mech's with a few vehicles
+team and given 12 units each to control. Mostly 'Meks with a few vehicles
 thrown in.
 
 End Result: 1.9G of ram used, no crashes.

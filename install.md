@@ -291,4 +291,4 @@ vs scheduling it for later. If using DigitalOcean, in about 1 minute, the
 server should be back up and running. Log back in and re-run the status command
 to confirm.
 
-Happy Hunting MechWarrior!
+Happy Hunting MekWarrior!
