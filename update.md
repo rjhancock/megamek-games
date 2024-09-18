@@ -20,6 +20,16 @@ to chain 3 commands together.
 sudo apt update && sudo apt full-upgrade -y
 ```
 
+### Upgrading Java
+
+If you aren't already using OpenJDK 17 on your server, you'll need to run the
+following set of commands to get the correct version installed.
+
+```bash
+sudo apt uninstall openjdk-11-jdk-headless
+sudo apt install openjdk-17-jdk-headless
+```
+
 ## Getting MegaMek
 
 Same as with the installation, we need to get a copy of the latest version onto
@@ -44,11 +54,11 @@ ls -lha
 >
 > This will return a listing of files and folders in the current directory.
 
-For MekHQ 0.49.17:
+For MekHQ 0.49.19.1:
 
 ```bash
 # step 3
-tar -zxvf mekhq-0.49.17.tar.gz
+tar -zxf mekhq-0.49.19.1.tar.gz
 ```
 
 To better understand what's going on, we are telling the `tar` command to
@@ -77,7 +87,7 @@ installation) then link the new version up with
 ```bash
 # step 5
 rm stable
-ln -s mekhq-0.49.17 stable
+ln -s mekhq-0.49.19.1 stable
 ```
 
 ## Start the new version

@@ -3,6 +3,8 @@ layout: page
 ---
 # Installation
 
+**Note: The Dockerized versions of MegaMek have Sentry reporting ENABLED by default.**
+
 These are basic instructions for getting a dedicated server up and running
 using a hosting provider. Does NOT require adjusting your own router or
 firewall settings. These are at a basic to intermediate level. **Familiarity
@@ -35,7 +37,7 @@ referral will credit me (TapEnvy.us, LLC) $25 USD AFTER you've spent $25.
 > `What is the project?` (or however it's phrased).
 
 If unfamiliar with initial server setup, please check out
-[Initial Server Setup with Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04)
+[Initial Server Setup with Ubuntu 24.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-24-04)
 for setting up the initial user that we'll be using for MegaMek.
 
 After you've done the initial server setup, follow along using the created
@@ -48,8 +50,7 @@ user.
 
 ## Server Requirements (recommended for most)
 
-* Ubuntu 22.04 LTS
-* OpenJDK 11 LTS
+* Ubuntu 24.04 LTS
 * 1 vCPU
 * 1GB RAM
 * 25G HDD
@@ -58,8 +59,8 @@ user.
 
 Make sure you have a non-privileged user created with sudo privileges and you
 can login as said user. You do NOT want to run MegaMek as the `root` user for
-security reasons. If not user how to do this, follow this tutorial for Ubuntu 20.04 -
-[Initial Server Setup with Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04).
+security reasons. If not user how to do this, follow this tutorial -
+[Initial Server Setup with Ubuntu 24.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-24-04).
 
 ### System Updates and Docker
 

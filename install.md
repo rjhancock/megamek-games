@@ -37,7 +37,7 @@ referral will credit me (TapEnvy.us, LLC) $25 USD AFTER you've spent $25.
 > `What is the project?` (or however it's phrased).
 
 If unfamiliar with initial server setup, please check out
-[Initial Server Setup with Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04)
+[Initial Server Setup with Ubuntu 24.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-24-04)
 for setting up the initial user that we'll be using for MegaMek.
 
 After you've done the initial server setup, follow along using the created
@@ -50,8 +50,8 @@ user.
 
 ## Server Requirements (recommended for most)
 
-* Ubuntu 22.04 LTS
-* OpenJDK 11 LTS
+* Ubuntu 24.04 LTS
+* OpenJDK 17 LTS
 * 1 vCPU
 * 1GB RAM
 * 25G HDD
@@ -60,8 +60,8 @@ user.
 
 Make sure you have a non-privileged user created with sudo privileges and you
 can login as said user. You do NOT want to run MegaMek as the `root` user for
-security reasons. If not user how to do this, follow this tutorial for Ubuntu 20.04 -
-[Initial Server Setup with Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04).
+security reasons. If not user how to do this, follow this tutorial -
+[Initial Server Setup with Ubuntu 24.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-24-04).
 
 ### System Updates and Java
 
@@ -85,7 +85,7 @@ For OpenJDK, it's another quick command:
 
 ```bash
 # step 2
-sudo apt install openjdk-11-jdk-headless
+sudo apt install openjdk-17-jdk-headless
 ```
 
 This will install OpenJDK 11 for headless systems. This basically means for
@@ -135,7 +135,7 @@ For MekHQ 0.49.19.1:
 
 ```bash
 # step 5
-tar -zxvf mekhq-0.49.19.1.tar.gz
+tar -zxf mekhq-0.49.19.1.tar.gz
 ```
 
 To better understand what's going on, we are telling the `tar` command to
