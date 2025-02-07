@@ -32,11 +32,11 @@ added, removed, and updated.
 ||||||
 |||*Development*|||
 |diamond-shark.megamek.games  |2346|0.50.02|1700M - Regimental? |TapEnvy.us, LLC|
-|hells-horses.megamek.games   |2346|0.50.02|768M - Companies    |MegaMek Team|
-|blackhearts.megamek.games    |2346|0.50.02|768M - Companies    |MegaMek Team|
-|wolverines.megamek.games     |2346|0.50.02|768M - Companies    |MegaMek Team|
-|houseofmors.megamek.games    |2346|0.49.18|768M - Companies   |Mors2657|
-|houseofmors2.megamek.games   |2346|0.49.18|768M - Companies   |Mors2657|
+|hells-horses.megamek.games   |2346|0.50.03|768M - Companies    |MegaMek Team|
+|blackhearts.megamek.games    |2346|0.50.03|768M - Companies    |MegaMek Team|
+|wolverines.megamek.games     |2346|0.50.03|768M - Companies    |MegaMek Team|
+|houseofmors.megamek.games    |2346|0.50.03|768M - Companies    |Mors2657|
+|houseofmors2.megamek.games   |2346|0.50.03|768M - Companies    |Mors2657|
 |ralias-raiders.megamek.games |2823|0.50.02|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games |3049|0.50.02|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games |3057|0.50.02|2048M - Regimental? |[RR] Sierra Invenio|
