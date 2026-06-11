@@ -15,12 +15,12 @@ I'll be using DigitalOcean as a basis for this. They have a large collection
 of tutorials on setting up a server. They can be used with other providers
 as well.
 
-For this tutorial, we'll be using their cheapest droplet to setup an instance
-on which is $5/mo USD as of this writing. This will allow us to dedicate 768M
-of ram to MegaMek which should be more than enough for most games and
-scenarios. If you need more, upgrading to the $10/mo USD instance is a few
-clicks and the settings can be adjusted to give MegaMek 1536M of ram instead.
-In our testing, that was overkill.
+For this tutorial, we'll be using their second-cheapest droplet to setup an 
+instance on which is $6/mo USD as of this writing. This will allow us to 
+dedicate 768M of ram to MegaMek which should be more than enough for most 
+games and scenarios. If you need more, upgrading to the $12/mo USD instance 
+is a few clicks and the settings can be adjusted to give MegaMek 1536M of 
+ram instead. In our testing, that was overkill.
 
 > If increasing the ram, adjust the start up script and replace the two
 > instances of 768 with the amount of memory you want to allocate.
