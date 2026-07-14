@@ -18,15 +18,15 @@ List will be updated as servers are added, removed, and updated.
 |:------|:-----:|:--------:|:--:|-------:|
 |||*Milestone*|||
 |sldf.megamek.games           |2346|0.51.0  (Milestone)|768M - Companies    |MegaMek Team|
-|ralias-raiders.megamek.games |2830|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |2866|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3028|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3039|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3052|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3058|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3062|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3067|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3081|0.50.06 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |2830|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |2866|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3028|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3039|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3052|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3058|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3062|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3067|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |3081|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 
 ||||||
 |||*Development*|||
