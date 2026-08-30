@@ -38,6 +38,8 @@ List will be updated as servers are added, removed, and updated.
 |ralias-raiders.megamek.games |3057|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games |3071|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
 |ralias-raiders.megamek.games |3151|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |2571|0.51.00.1|2048M - Regimental? |[RR] Sierra Invenio|
+|ralias-raiders.megamek.games |2825|0.51.00.1|2048M - Regimental? |[RR] Sierra Invenio|
 
 ||||||
 |||*Deprecated Servers*|||
