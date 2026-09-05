@@ -18,28 +18,28 @@ List will be updated as servers are added, removed, and updated.
 |:------|:-----:|:--------:|:--:|-------:|
 |||*Milestone*|||
 |sldf.megamek.games           |2346|0.51.0  (Milestone)|768M - Companies    |MegaMek Team|
-|ralias-raiders.megamek.games |2830|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |2866|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3028|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3039|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3052|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3058|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3062|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3067|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3081|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |2830|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |2866|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3028|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3039|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3052|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3058|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3062|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3067|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3081|0.51.0 (Milestone)|2048M - Regimental? |[RR] Sierra Invenio|
 
 ||||||
 |||*Development*|||
 |hells-horses.megamek.games   |2346|0.51.0|768M - Companies    |MegaMek Team|
 |blackhearts.megamek.games    |2346|0.51.0|768M - Companies    |MegaMek Team|
 |wolverines.megamek.games     |2346|0.51.0|768M - Companies    |MegaMek Team|
-|ralias-raiders.megamek.games |2823|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3049|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3057|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3071|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |3151|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |2571|0.51.00.1|2048M - Regimental? |[RR] Sierra Invenio|
-|ralias-raiders.megamek.games |2825|0.51.00.1|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |2823|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3049|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3057|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3071|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |3151|0.51.0|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |2571|0.51.00.1|2048M - Regimental? |[RR] Sierra Invenio|
+|raliasraiders.ca |2825|0.51.00.1|2048M - Regimental? |[RR] Sierra Invenio|
 
 ||||||
 |||*Deprecated Servers*|||
